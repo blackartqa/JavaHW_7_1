@@ -55,6 +55,20 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <!-- id (придумываем сами) -->
+                        <id>check</id>
+                        <goals>
+                            <!-- какую цель выполняем (берём из справки) -->
+                            <goal>check</goal>
+                        </goals>
+                        <configuration>
+                            <haltOnFailure>true</haltOnFailure>
+                            <rules>
+
+                            </rules>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
